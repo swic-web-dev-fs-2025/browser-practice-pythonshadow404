@@ -3,7 +3,7 @@
   "editor.autoClosingBrackets": "beforeWhitespace",
   "editor.autoClosingComments": "always",
   "editor.bracketPairColorization.enabled": true,
- "editor.codeActionsOnSave": {
+  "editor.codeActionsOnSave": {
     "addMissingImports": "explicit",
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit"
@@ -16,5 +16,6 @@
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
